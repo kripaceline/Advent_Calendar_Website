@@ -1,0 +1,151 @@
+body.day21 {
+    background-color: #E1E5DD;
+    font-family: 'Arial', sans-serif;
+    color: #556655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.game-container {
+    background-color: rgba(236, 235, 233, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.greeting {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #912F3C;
+    text-transform: uppercase;
+}
+
+.game-instructions {
+    font-size: 18px;
+    color: #7A8F7D;
+    margin-bottom: 30px;
+}
+
+.game-area {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #B4C3B1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.basket {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 80px;
+    height: 40px;
+    background-color: #556655;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.gift {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    font-size: 40px;
+    transform: translateX(-50%);
+    transition: top 0.1s linear;
+}
+
+.status {
+    color: #912F3C;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.play-now-button, .play-again-button {
+    background-color: #F5E6DD;
+    border: none;
+    color: #912F3C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.play-now-button:hover, .play-again-button:hover {
+    background-color: #E66F7A;
+}
+
+.play-now-button:active, .play-again-button:active {
+    transform: scale(0.98);
+}
+
+.game-over-screen {
+    display: none;
+    text-align: center;
+}
+
+.back-button {
+    background-color: #F5E6DD;
+    border: none;
+    color: #912F3C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #E66F7A;
+}
+
+.back-button:active {
+    transform: scale(0.98);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .greeting {
+        font-size: 24px;
+    }
+
+    .game-instructions {
+        font-size: 16px;
+    }
+
+    .game-container {
+        padding: 20px;
+    }
+
+    .game-area {
+        height: 250px;
+    }
+
+    .basket {
+        width: 70px;
+        height: 35px;
+    }
+
+    .gift {
+        width: 35px;
+        height: 35px;
+        font-size: 30px;
+    }
+}

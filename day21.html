@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Catcher Game</title>
+    <link rel="stylesheet" href="day21.css"> <!-- Link to your day21.css file -->
+</head>
+<body class="day21"> <!-- Add class for day21 -->
+    <div class="game-container">
+        <h1 class="greeting">Catch the Christmas Gift</h1>
+        <div id="gameStatus">
+            <p class="game-instructions">Use arrow keys or swipe to move the gift catcher and catch the gifts!</p>
+            <p id="current-score" class="status">Score: 0</p>
+            <p id="high-score" class="status">High Score: 0</p>
+            <p id="lives" class="status">Lives: 3</p>
+        </div>
+        <div id="gameArea" class="game-area">
+            <div id="basket" class="basket"></div>
+            <div id="gift" class="gift">🎁</div>
+        </div>
+        <button id="play-now" class="play-now-button">Play Now</button>
+        <div id="game-over-screen" class="game-over-screen" style="display: none;">
+            <p class="game-over-text">Game Over!</p>
+            <button id="play-again" class="play-again-button">Play Again</button>
+        </div>
+        <button id="back-to-home" class="back-button">Back to Home</button>
+    </div>
+
+    <script src="day21.js"></script> <!-- Link to your day21.js file -->
+</body>
+</html>

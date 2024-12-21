@@ -1,0 +1,80 @@
+body.day24 {
+    background-image: url('https://i.pinimg.com/736x/7f/9a/6c/7f9a6c7185f774a5868b42a1745a39d2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: A3B29D; /* Text color */
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #A9B9A6; /* Soft, muted green */
+}
+
+.playlist-container {
+    margin: 20px 0;
+}
+
+.playlist-link {
+    text-decoration: none;
+    background-color: #F59398; /* Soft pink for background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.playlist-link:hover {
+    background-color: #E66F7A; /* Bold pinkish-red for hover */
+}
+
+.add-songs input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #A3B29D; /* Muted earthy green for input */
+    color: #fff;
+}
+
+.add-songs input::placeholder {
+    color: #fff; /* White placeholder text */
+}
+
+.add-songs button {
+    padding: 10px 20px;
+    background-color: #95A794; /* Dusty greenish-blue for button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-songs button:hover {
+    background-color: #CB8D8D; /* Soft muted red for button hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #E66F7A; /* Bold pinkish-red for the playlist text */
+}

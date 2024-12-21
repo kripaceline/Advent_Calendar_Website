@@ -1,0 +1,64 @@
+body.day22 {
+    background-image: url('https://i.pinimg.com/736x/7f/9a/6c/7f9a6c7185f774a5868b42a1745a39d2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #556655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(236, 235, 233, 0.8);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1.greeting {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #912F3C;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    color: #7A8F7D;
+    margin-bottom: 30px;
+}
+
+.cute-letter {
+    font-size: 16px;
+    font-weight: bold;
+    color: #556655;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #F5E6DD;
+    border: none;
+    color: #912F3C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #E66F7A;
+}
+
+button:active {
+    transform: scale(0.98);
+}

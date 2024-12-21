@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Advent Calendar</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/736x/7f/9a/6c/7f9a6c7185f774a5868b42a1745a39d2.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 16px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns for first row */
+            gap: 40px; /* Space between balls */
+            position: relative;
+            width: 60%; /* Control width of the grid */
+            max-width: 700px;
+        }
+        .ball {
+            width: 150px; /* Increased size for bigger balls */
+            height: 150px; /* Increased size for bigger balls */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-family: 'Serif';
+            font-size: 28px; /* Bigger text inside balls */
+            text-decoration: none;
+            position: relative;
+        }
+        /* Ball colors */
+        .ball:nth-child(1) { background-color: #F59398; }
+        .ball:nth-child(2) { background-color: #A3B29D; }
+        .ball:nth-child(3) { background-color: #95A794; }
+        .ball:nth-child(4) { background-color: #CB8D8D; }
+        .ball:nth-child(5) { background-color: #E66F7A; }
+
+        /* Second row offset */
+        .second-row {
+            grid-column: span 3;
+            display: flex;
+            justify-content: center;
+            gap: 60px; /* Adjust spacing for bigger balls */
+            margin-top: -50px; /* Adjust overlap between rows */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 60px;
+            font-family: 'Mountains of Christmas', cursive;
+            text-shadow: 2px 2px 0px white;
+        }
+        .letter:nth-child(1) { color: #A9B9A6; }
+        .letter:nth-child(2) { color: #F59398; }
+        .letter:nth-child(3) { color: #A3B29D; }
+        .letter:nth-child(4) { color: #95A794; }
+        .letter:nth-child(5) { color: #CB8D8D; }
+        .letter:nth-child(6) { color: #E66F7A; }
+        .letter:nth-child(7) { color: #A9B9A6; }
+        .letter:nth-child(8) { color: #F59398; }
+        .letter:nth-child(9) { color: #A3B29D; }
+        .letter:nth-child(10) { color: #95A794; }
+        .letter:nth-child(11) { color: #CB8D8D; }
+        .letter:nth-child(12) { color: #E66F7A; }
+        .letter:nth-child(13) { color: #A9B9A6; }
+        .letter:nth-child(14) { color: #F59398; }
+        .letter:nth-child(15) { color: #A3B29D; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            <span class="letter">A</span>
+            <span class="letter">d</span>
+            <span class="letter">v</span>
+            <span class="letter">e</span>
+            <span class="letter">n</span>
+            <span class="letter">t</span>
+            <span class="letter">_</span>
+            <span class="letter">C</span>
+            <span class="letter">a</span>
+            <span class="letter">l</span>
+            <span class="letter">e</span>
+            <span class="letter">n</span>
+            <span class="letter">d</span>
+            <span class="letter">a</span>
+            <span class="letter">r</span>
+        </h1>
+        <div class="container">
+            <a href="day21.html" class="ball">21</a>
+            <a href="day22.html" class="ball">22</a>
+            <a href="day23.html" class="ball">23</a>
+            <div class="second-row">
+                <a href="day24.html" class="ball">24</a>
+                <a href="day25.html" class="ball">25</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

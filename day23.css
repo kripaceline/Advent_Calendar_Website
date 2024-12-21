@@ -1,0 +1,36 @@
+body.day23 {
+    background-image: url('https://i.pinimg.com/736x/7f/9a/6c/7f9a6c7185f774a5868b42a1745a39d2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #912F3C;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+h1.greeting {
+    font-size: 36px;
+    color: #3b3b3b;
+}
+
+.games h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+a:hover {
+    color: #912F3C;
+}
